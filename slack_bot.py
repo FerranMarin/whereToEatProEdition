@@ -14,7 +14,7 @@ def options(day):
     else:
         return restaurants
 
-token = "xxx-token-xxx"
+token = "xxx-here-your-token-xxx"
 sc = SlackClient(token)
 
 today = datetime.datetime.today().weekday()
