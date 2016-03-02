@@ -2,6 +2,7 @@ import random
 import datetime
 
 def options(day):
+    restaurants = ['japochungo','covas','japo4','pimpa','girasuelos','suamu','cuoco','trobada','nurivan','milcasas','quaranta','fantastic','motobar']
     if day == 4:
         return 'chipo'
     elif day == 0 or day == 3:
@@ -10,8 +11,6 @@ def options(day):
         return restaurants
 
 today = datetime.datetime.today().weekday()
-
-restaurants = ['japochungo','covas','japo4','pimpa','girasuelos','suamu','cuoco','trobada','nurivan','milcasas','quaranta','fantastic','motobar']
 
 restaurants_chosen = []
 
